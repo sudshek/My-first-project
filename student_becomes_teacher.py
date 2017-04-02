@@ -5,11 +5,12 @@ lloyd = {
     "tests": [75.0, 90.0]
 }
 results = []
-students = [lloyd, alice, tyler]
+
 homework = 0
 tests = 0
 quizzes = 0
 student = 0
+
 alice = {
     "name": "Alice",
     "homework": [100.0, 92.0, 98.0, 100.0],
@@ -22,7 +23,7 @@ tyler = {
     "quizzes": [0.0, 75.0, 78.0],
     "tests": [100.0, 100.0]
 }
-
+students = [lloyd, alice, tyler]
 
 def average(number):
     total = sum(number)
